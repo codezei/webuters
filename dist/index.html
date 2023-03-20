@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<!-- <base href="/"> -->
 
-	<title>OptimizedHTML 5</title>
+	<title>Home</title>
 	<meta name="description" content="Startup HTML template OptimizedHTML 5">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -21,13 +21,798 @@
 
 <body>
 
-	<div style="max-width: 700px; margin: auto">
 
-		<img src="images/dist/preview.jpg" alt="Start HTML5 Template" style="width: 100%"><br><br>
-		<h2 class="heading">Welcome to startup HTML template OptimizedHTML 5!</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam reprehenderit nulla alias expedita a qui, pariatur doloremque ipsa fugit laboriosam odio iure recusandae laborum delectus praesentium magni reiciendis voluptatem. Sed.</p>
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="logo header__logo">
+                <a href="./index.html"><img src="./images/dist/logo.svg" alt=""></a>
+            </div>
+            <div class="header__navigation">
+                <nav class="header__navigation-main">
+                    <!-- wp_nav_menu() - primary-menu -->
+                    <div class="menu-primary-menu-container">
+                        <ul class="menu primary-menu" id="primary-menu">
+                            <li class="menu-item menu-item-has-children current-menu-ancestor">
+                                <span>Features</span>
+                                <ul class="sub-menu">
+                                    <li class="menu-item current-menu-item">
+                                        <a href="./page1.html">Page1</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="./page2.html">Page2</a>
+                                    </li>
 
-	</div>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./price.html">Pricing</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="https://www.youtube.com/watch?v=4u-n6njjks0">Watch a Demo</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+                <nav class="header__navigation-secondary">
+                    <a href="" class="btn btn--white header__navigation-btn">Log In</a>
+                    <a href="" class="btn btn--pink header__navigation-btn">Sign Up</a>
+                </nav>
+            </div>
+            <button type="button" class="header__navigation-btn-menu" data-toggle=".header__navigation">
+                <span></span><span></span><span></span>
+            </button>
+
+
+
+        </div>
+    </div>
+
+    <div class="popup">
+        <div class="popup__inner">
+            <button type="button" class="popup__close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                  </svg>
+            </button>
+        </div>
+    </div>
+</header>
+<section class="promo">
+    <div class="container promo__container">
+        <h2 class="promo__title">
+            Lorem ipsum dolor sit amet consectetur
+        </h2>
+        <p class="promo__subtitle subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        </p>
+        <a href="#features" class="promo__btn-down">
+            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.5702 14.4299L12.5002 20.4999L6.43018 14.4299" stroke="#52BD95" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12.5 3.5V20.33" stroke="#52BD95" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+        </a>
+        <div class="promo__list">
+            <div class="promo__item promo__item--audience">
+                <div class="audience">
+                    <h4 class="audience__title">
+                        Our Audience
+                    </h4>
+                    <img src="./images/dist/audience.png" alt="" class="audience__img">
+                    <ul class="audience__list">
+                        <li class="audience__item">
+                            <div class="audience__item-value">55%</div>
+                            <div class="audience__item-period">20-25 year</div>
+                        </li>
+                        <li class="audience__item">
+                            <div class="audience__item-value">20%</div>
+                            <div class="audience__item-period">26-35 year</div>
+                        </li>
+                        <li class="audience__item">
+                            <div class="audience__item-value">17%</div>
+                            <div class="audience__item-period">36-45 year</div>
+                        </li>
+                        <li class="audience__item">
+                            <div class="audience__item-value">8%</div>
+                            <div class="audience__item-period">46-60 year</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="promo__item promo__item--graph">
+                <div class="graph">
+                    <div class="graph__header">
+                        <h4 class="graph__title">
+                            Used once
+                        </h4>
+                        <span class="graph__btn">
+                            Monthly
+                        </span>
+                    </div>
+                    <img class="graph__img" src="./images/dist/graph.png" alt="">
+                </div>
+            </div>
+            <div class="promo__item promo__item--customers">
+                <div class="customers">
+                    <div class="customers__inner">
+                        <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="customers__icon">
+                            <path d="M11.4078 9.61499C10.3893 10.3628 9.1599 10.767 7.89752 10.7697C6.63343 10.7668 5.404 10.3625 4.38428 9.61499C1.90834 9.89476 0 11.8746 0 14.293V16.13C0 17.4141 0.626919 17.8899 1.73038 17.8809H14.0627C15.1664 17.8899 15.7933 17.4141 15.7933 16.13V14.293C15.7933 11.8744 13.8847 9.8933 11.4078 9.61499Z" fill="#52BD95"/>
+                            <path d="M7.8977 0.241455C6.68317 0.241455 5.5199 0.723363 4.6613 1.58171C3.80442 2.44007 3.32275 3.60333 3.32275 4.8164C3.32275 6.02947 3.80442 7.19372 4.6613 8.05109C5.5199 8.90944 6.68317 9.39086 7.8977 9.39086C9.11028 9.39086 10.2738 8.90944 11.1321 8.05109C11.9905 7.19372 12.4722 6.02947 12.4722 4.8164C12.4722 3.60333 11.9903 2.43982 11.1321 1.58171C10.2738 0.723118 9.11028 0.241455 7.8977 0.241455Z" fill="#52BD95"/>
+                            </svg>
+                        
+                            <h4 class="customers__count">
+                                31950+
+                            </h4>
+                            <div class="customers__name">
+                                Customers
+                            </div>
+                            <img src="./images/dist/customers.png" alt="" class="customers__img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="promo__item promo__item--services">
+                <div class="services">
+                    <h4 class="services__title">
+                        Services
+                    </h4>
+                    <ul class="services__list">
+                        <li class="services__item">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.75 5.25V12.75C15.75 15 14.625 16.5 12 16.5H6C3.375 16.5 2.25 15 2.25 12.75V5.25C2.25 3 3.375 1.5 6 1.5H12C14.625 1.5 15.75 3 15.75 5.25Z" stroke="#A155B9" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10.875 3.375V4.875C10.875 5.7 11.55 6.375 12.375 6.375H13.875" stroke="#A155B9" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6 9.75H9" stroke="#A155B9" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6 12.75H12" stroke="#A155B9" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
+                            Blog Writer</li>
+                        <li class="services__item">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_221_991)">
+                                <path d="M14.8426 5.45257L12.5701 3.18007C11.7076 2.31757 10.5301 2.36257 9.95256 3.28507L8.68506 5.28757L12.7351 9.33757L14.7376 8.07007C15.6001 7.52257 15.6526 6.26257 14.8426 5.45257Z" stroke="#A155B9" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.68499 5.28759L5.73749 5.10759C4.09499 5.01009 3.51749 5.51259 3.33749 7.08009L2.60249 13.3201C2.44499 14.6326 3.39749 15.5776 4.70249 15.4201L10.9425 14.6851C12.51 14.4976 13.08 13.9276 12.915 12.2851L12.7425 9.33759" stroke="#A155B9" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3.45752 14.5649L5.73002 12.2849" stroke="#A155B9" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_221_991">
+                                <rect width="18" height="18" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                
+                            Article Writer</li>
+                        <li class="services__item">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.5 2.25L6 15.75" stroke="#A155B9" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 2.25L10.5 15.75" stroke="#A155B9" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2.625 6.75H16.125" stroke="#A155B9" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M1.875 11.25H15.375" stroke="#A155B9" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
+                            Hashtag Generator</li>
+                        <li class="services__item">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_221_990)">
+                                <path d="M13.4755 3.33859V3.43859H13.5755H14.242C14.7662 3.43859 15.2205 3.6787 15.5614 4.01963C15.9027 4.36088 16.1477 4.82037 16.1477 5.34435V13.3543C16.1477 14.3968 15.2854 15.2589 14.2296 15.2588L3.5598 15.2575C2.51681 15.2574 1.65664 14.3973 1.65664 13.3543V2.67087C1.65664 1.62791 2.51682 0.767725 3.55979 0.767725H11.5724C12.6154 0.767725 13.4755 1.62791 13.4755 2.67087V3.33859ZM12.3653 14.1221H12.5076L12.4594 13.9882C12.3865 13.7857 12.3401 13.5751 12.3401 13.3543V2.67087C12.3401 2.23422 12.009 1.90316 11.5724 1.90316H3.55979C3.12313 1.90316 2.79207 2.23422 2.79207 2.67087V13.3543C2.79207 13.791 3.12313 14.1221 3.55979 14.1221H12.3653ZM4.89428 4.774L4.89428 4.77402H4.89653H7.56739V4.77405L7.56964 4.774C7.76986 4.7695 7.91213 4.84091 8.00538 4.94401C8.10042 5.04909 8.15027 5.19365 8.15027 5.34174C8.15027 5.48983 8.10042 5.63439 8.00538 5.73947C7.91213 5.84257 7.76986 5.91398 7.56964 5.90948L7.56964 5.90946H7.56739H4.89653V5.90943L4.89428 5.90948C4.69406 5.91398 4.55179 5.84257 4.45854 5.73947C4.3635 5.63439 4.31365 5.48983 4.31365 5.34174C4.31365 5.19365 4.3635 5.04909 4.45854 4.94401C4.55179 4.84091 4.69406 4.7695 4.89428 4.774ZM13.5768 4.57402H13.4768V4.67402V13.3543C13.4768 13.785 13.7977 14.1183 14.2349 14.1234C14.6793 14.1285 15.0123 13.7902 15.0123 13.3543V5.34435C15.0123 5.26929 14.9876 5.17875 14.9466 5.09072C14.905 5.00114 14.8431 4.9069 14.7613 4.82505C14.6795 4.74315 14.5852 4.68126 14.4956 4.63959C14.4075 4.59865 14.317 4.57402 14.242 4.57402H13.5768ZM4.83257 7.44476L4.83262 7.44475C4.85217 7.44373 4.87176 7.44373 4.89131 7.44475L4.89131 7.44489H4.89653H10.2396C10.4352 7.44489 10.5746 7.51726 10.6661 7.62019C10.7592 7.72496 10.8079 7.86747 10.8079 8.01326C10.8079 8.15904 10.7592 8.30156 10.6661 8.40632C10.5746 8.50925 10.4352 8.58163 10.2396 8.58163H4.89653V8.58149L4.89136 8.58176C4.69567 8.59188 4.5525 8.5267 4.45566 8.42847C4.35709 8.3285 4.30101 8.18847 4.29347 8.04265C4.28593 7.89684 4.32727 7.75177 4.415 7.64216C4.5012 7.53447 4.63688 7.45487 4.83257 7.44476ZM4.89653 11.2525V11.2524L4.89358 11.2525C4.15256 11.2744 4.09519 10.1727 4.83369 10.1169C4.85289 10.1159 4.87212 10.1159 4.89131 10.1169L4.89131 10.1171H4.89653H10.2396V10.1171L10.2418 10.117C10.442 10.1125 10.5843 10.1839 10.6776 10.2871C10.7726 10.3921 10.8224 10.5367 10.8224 10.6848C10.8224 10.8329 10.7726 10.9774 10.6776 11.0825C10.5843 11.1856 10.442 11.257 10.2418 11.2525L10.2418 11.2525H10.2396H4.89653Z" fill="#A155B9" stroke="#F4F5F7" stroke-width="0.2"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_221_990">
+                                <rect width="16" height="16" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                
+                            Social Media Post Writer</li>
+                        <li class="services__item">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 16.5C13.1421 16.5 16.5 13.1421 16.5 9C16.5 4.85786 13.1421 1.5 9 1.5C4.85786 1.5 1.5 4.85786 1.5 9C1.5 13.1421 4.85786 16.5 9 16.5Z" stroke="#A155B9" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6.0002 2.25H6.7502C5.2877 6.63 5.2877 11.37 6.7502 15.75H6.0002" stroke="#A155B9" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.25 2.25C12.7125 6.63 12.7125 11.37 11.25 15.75" stroke="#A155B9" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2.25 12V11.25C6.63 12.7125 11.37 12.7125 15.75 11.25V12" stroke="#A155B9" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2.25 6.74995C6.63 5.28745 11.37 5.28745 15.75 6.74995" stroke="#A155B9" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
+                            Translator</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="promo__partners partners">
+            <div class="partners__item">
+                <img src="./images/dist/partner-1.png" alt="" class="partners__item-img">
+            </div>
+            <div class="partners__item">
+                <img src="./images/dist/partner-2.png" alt="" class="partners__item-img">
+            </div>
+            <div class="partners__item">
+                <img src="./images/dist/partner-3.png" alt="" class="partners__item-img">
+            </div>
+            <div class="partners__item">
+                <img src="./images/dist/partner-4.png" alt="" class="partners__item-img">
+            </div>
+            <div class="partners__item">
+                <img src="./images/dist/partner-5.png" alt="" class="partners__item-img">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="features" id="features">
+    <div class="container">
+        <h2 class="features__title">
+            Our Features
+        </h2>
+        <p class="features__subtitle subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        </p>
+    </div>
+    <div class="features__preview">
+        <div class="container">
+            <div class="row features__row">
+                <div class="features__col col-sm-6 col-md-4 col-lg-3">
+                    <div class="feature-preview">
+                        <img src="./images/dist/feature-1.jpg" alt="" class="feature-preview__img">
+                        <h4 class="feature-preview__title">
+                            Qualified Doctors
+                        </h4>
+                        <p class="feature-preview__text">
+                            Fully layered dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam.
+                        </p>
+                    </div>
+                </div>
+                <div class="features__col col-sm-6 col-md-4 col-lg-3">
+                    <div class="feature-preview">
+                        <img src="./images/dist/feature-2.jpg" alt="" class="feature-preview__img">
+                        <h4 class="feature-preview__title">
+                            Qualified Doctors
+                        </h4>
+                        <p class="feature-preview__text">
+                            Fully layered dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam.
+                        </p>
+                    </div>
+                </div>
+                <div class="features__col col-sm-6 col-md-4 col-lg-3">
+                    <div class="feature-preview">
+                        <img src="./images/dist/feature-3.jpg" alt="" class="feature-preview__img">
+                        <h4 class="feature-preview__title">
+                            Qualified Doctors
+                        </h4>
+                        <p class="feature-preview__text">
+                            Fully layered dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="features__list">
+            <div class="features__item feature">
+                    <div class="feature__info">
+                        <h3 class="feature__title">
+                            Grow your <br> business fast.
+                        </h3>
+                        <ul class="feature__list grow">
+                            <li class="grow__item">
+                                <h4 class="grow__item-title">
+                                    Lorem ipsum
+                                </h4>
+                                <p class="grow__item-text">
+                                    We receive over 50 new job submission at our website.
+                                </p>
+                            </li>
+                            <li class="grow__item">
+                                <h4 class="grow__item-title">
+                                    Lorem ipsum dolor sit
+                                </h4>
+                                <p class="grow__item-text">
+                                    We receive over 50 new job submission at our website.
+                                </p>
+                            </li>
+                            <li class="grow__item">
+                                <h4 class="grow__item-title">
+                                    Lorem ipsum dolor
+                                </h4>
+                                <p class="grow__item-text">
+                                    We receive over 50 new job submission at our website.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="./images/dist/feature-item-1.png" alt="" class="feature__img">
+            </div>
+            <div class="features__item feature">
+                <h3 class="feature__title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing.
+                </h3>
+                    <div class="feature__info">
+   
+                        <p class="feature__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <p class="feature__text">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                        </p>
+                        <a href="" class="btn btn--red feature__btn">
+                            Get Started for Free
+                        </a>
+                        <p class="feature__text">
+                            “The following article covers a topic that has recently moved to center stage–at least it seems that way. If you’ve been thinking you need to know more about unconditional love, here’s your opportunity.”
+                        </p>
+                        <p class="feature__text">
+                            <b>John Doe, Founder of Matrix</b>
+                        </p>
+    
+                    </div>
+                    <img src="./images/dist/feature-item-2.png" alt="" class="feature__img">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="functional">
+    <div class="container">
+        <h2 class="functional__title">
+            Lorem ipsum dolor sit amet consectetur.
+        </h2>
+        <p class="functional__subtitle subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+        </p>
+        <a href="" class="btn btn--pink functional__btn">
+            Get Started for Free
+        </a>
+        <img src="./images/dist/map.png" class="functional__map" alt="">
+
+        </img>
+        <div class="functional__list">
+            <div class="functional__item function">
+                <div class="function__info">
+                    <h3 class="function__title">
+                        Blog Writer
+                    </h3>
+                    <p class="function__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    </p>
+                    <ul class="function__list">
+                        <li class="function__list-item function__list-item--fill">
+                            Fill in the stage information
+                        </li>
+                        <li class="function__list-item function__list-item--view">
+                            View the final result
+                        </li>
+                    </ul>
+                    <a href="" class="btn btn--pink function__btn">
+                        Get Started
+                    </a>
+                </div>
+                <img src="./images/dist/function-1.png" alt="" class="function__img">
+            </div>
+            <div class="functional__item function">
+                <div class="function__info">
+                    <h3 class="function__title">
+                        Article Writer
+                    </h3>
+                    <p class="function__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <ul class="function__list">
+                        <li class="function__list-item function__list-item--fill">
+                            Fill in the stage information
+                        </li>
+                        <li class="function__list-item function__list-item--view">
+                            View the final result
+                        </li>
+                    </ul>
+                    <a href="" class="btn btn--pink function__btn">
+                        Get Started
+                    </a>
+                </div>
+                <img src="./images/dist/function-2.png" alt="" class="function__img">
+            </div>
+            <div class="functional__item function">
+                <div class="function__info">
+                    <h3 class="function__title">
+                        Hashtag Generator
+                    </h3>
+                    <p class="function__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <ul class="function__list">
+                        <li class="function__list-item function__list-item--fill">
+                            Fill in the stage information
+                        </li>
+                        <li class="function__list-item function__list-item--view">
+                            View the final result
+                        </li>
+                    </ul>
+                    <a href="" class="btn btn--pink function__btn">
+                        Get Started
+                    </a>
+                </div>
+                <img src="./images/dist/function-3.png" alt="" class="function__img">
+            </div>
+            <div class="functional__item function">
+                <div class="function__info">
+                    <h3 class="function__title">
+                        Social Media Post Writer
+                    </h3>
+                    <p class="function__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <ul class="function__list">
+                        <li class="function__list-item function__list-item--fill">
+                            Fill in the stage information
+                        </li>
+                        <li class="function__list-item function__list-item--view">
+                            View the final result
+                        </li>
+                    </ul>
+                    <a href="" class="btn btn--pink function__btn">
+                        Get Started
+                    </a>
+                </div>
+                <img src="./images/dist/function-4.png" alt="" class="function__img">
+            </div>
+            <div class="functional__item function">
+                <div class="function__info">
+                    <h3 class="function__title">
+                        Translator
+                    </h3>
+                    <p class="function__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <ul class="function__list">
+                        <li class="function__list-item function__list-item--fill">
+                            Fill in the stage information
+                        </li>
+                        <li class="function__list-item function__list-item--view">
+                            View the final result
+                        </li>
+                    </ul>
+                    <a href="" class="btn btn--pink function__btn">
+                        Get Started
+                    </a>
+                </div>
+                <img src="./images/dist/function-5.png" alt="" class="function__img">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="information">
+    <div class="container">
+        <div class="information__header">
+            <h2 class="information__title">
+                General information
+            </h2>
+            <p class="information__subtitle subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing.
+            </p>
+        </div>
+        <div class="information__list">
+            <div class="information__item">
+                <h2 class="information__item-value">28K</h2>
+                <p class="information__item-name">Users</p>
+            </div>
+            <div class="information__item">
+                <h2 class="information__item-value">13K</h2>
+                <p class="information__item-name">Download</p>
+            </div>
+            <div class="information__item">
+                <h2 class="information__item-value">68K</h2>
+                <p class="information__item-name">Likes</p>
+            </div>
+            <div class="information__item">
+                <h2 class="information__item-value">10K</h2>
+                <p class="information__item-name">5 Star Rating</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="faq">
+    <div class="container">
+        <h2 class="faq__title">
+            FAQ
+        </h2>
+        <div class="row faq__row">
+            <div class="faq__col col-lg-6">
+                <div class="faq__list">
+                    <div class="faq__item accordion-item-js open">
+                        <h4 class="faq__item-title">
+                            We are a non-profit organization
+                        </h4>
+                        <p class="faq__item-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                    <div class="faq__item accordion-item-js">
+                        <h4 class="faq__item-title">
+                            What will happen after my 14 day free trial?
+                        </h4>
+                        <p class="faq__item-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                    <div class="faq__item accordion-item-js">
+                        <h4 class="faq__item-title">
+                            Can I become an affiliate?
+                        </h4>
+                        <p class="faq__item-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                        </p>
+                    </div>
+                    <div class="faq__item accordion-item-js">
+                        <h4 class="faq__item-title">
+                            What happens if I change from yearly to monthly?
+                        </h4>
+                        <p class="faq__item-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="faq__col col-lg-6">
+                <img src="./images/dist/faq.png" alt="" class="faq__img">
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="subscribers">
+    <div class="container">
+        <h2 class="subscribers__title">
+            10,000+ people love us
+        </h2>
+        <p class="subscribers__subtitle">
+            These companies release their own versions of the operating systems with minor changes, and yet always.
+        </p>
+        <div class="subscribers__row row">
+            <div class="subscribers__col col-md-6 col-lg-4">
+                <div class="subscriber">
+                    <div class="subscriber__header">
+                        <img src="./images/dist/ava-1.jpg" alt="" class="subscriber__ava">
+                        <div class="subscriber__info">
+                            <h4 class="subscriber__name">
+                                Aaron Almaraz
+                            </h4>
+                            <p class="subscriber__post">
+                                CEO & Founder at Gearat
+                            </p>
+                        </div>
+                        <a href="" class="subscriber__social" target="_blank">
+                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 1.68351C15.4 1.95155 14.7667 2.11908 14.1 2.2196C14.7667 1.81753 15.3 1.18094 15.5333 0.410317C14.9 0.778874 14.2 1.04692 13.4333 1.21444C12.8333 0.577843 11.9667 0.175781 11.0333 0.175781C9.23333 0.175781 7.76667 1.65001 7.76667 3.45929C7.76667 3.72733 7.8 3.96186 7.86667 4.1964C5.16667 4.06238 2.73333 2.75568 1.1 0.745369C0.833333 1.24795 0.666667 1.78403 0.666667 2.38712C0.666667 3.5263 1.23333 4.53145 2.13333 5.13454C1.6 5.10104 1.1 4.96702 0.633333 4.73248V4.76599C0.633333 6.37423 1.76667 7.71444 3.26667 8.01599C3 8.083 2.7 8.1165 2.4 8.1165C2.2 8.1165 1.96667 8.083 1.76667 8.04949C2.2 9.35619 3.4 10.3278 4.83333 10.3278C3.7 11.199 2.3 11.7351 0.766667 11.7351C0.5 11.7351 0.233333 11.7351 0 11.7016C1.46667 12.6397 3.16667 13.1758 5.03333 13.1758C11.0667 13.1758 14.3667 8.15001 14.3667 3.79434C14.3667 3.66032 14.3667 3.49279 14.3667 3.35877C15 2.9232 15.5667 2.35362 16 1.68351Z" fill="#21C6DD"/>
+                                </svg>                                
+                        </a>
+                    </div>
+                    <p class="subscriber__text">
+                        Time is the most precious thing you have when bootstrapping. You can't take time to ponder on design…
+                    </p>
+                </div>
+            </div>
+            <div class="subscribers__col col-md-6 col-lg-4">
+                <div class="subscriber">
+                    <div class="subscriber__header">
+                        <img src="./images/dist/ava-2.jpg" alt="" class="subscriber__ava">
+                        <div class="subscriber__info">
+                            <h4 class="subscriber__name">
+                                Phet Putrie
+                            </h4>
+                            <p class="subscriber__post">
+                                Freelancer
+                            </p>
+
+                        </div>
+                        <a href="" class="subscriber__social" target="_blank">
+                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 1.68351C15.4 1.95155 14.7667 2.11908 14.1 2.2196C14.7667 1.81753 15.3 1.18094 15.5333 0.410317C14.9 0.778874 14.2 1.04692 13.4333 1.21444C12.8333 0.577843 11.9667 0.175781 11.0333 0.175781C9.23333 0.175781 7.76667 1.65001 7.76667 3.45929C7.76667 3.72733 7.8 3.96186 7.86667 4.1964C5.16667 4.06238 2.73333 2.75568 1.1 0.745369C0.833333 1.24795 0.666667 1.78403 0.666667 2.38712C0.666667 3.5263 1.23333 4.53145 2.13333 5.13454C1.6 5.10104 1.1 4.96702 0.633333 4.73248V4.76599C0.633333 6.37423 1.76667 7.71444 3.26667 8.01599C3 8.083 2.7 8.1165 2.4 8.1165C2.2 8.1165 1.96667 8.083 1.76667 8.04949C2.2 9.35619 3.4 10.3278 4.83333 10.3278C3.7 11.199 2.3 11.7351 0.766667 11.7351C0.5 11.7351 0.233333 11.7351 0 11.7016C1.46667 12.6397 3.16667 13.1758 5.03333 13.1758C11.0667 13.1758 14.3667 8.15001 14.3667 3.79434C14.3667 3.66032 14.3667 3.49279 14.3667 3.35877C15 2.9232 15.5667 2.35362 16 1.68351Z" fill="#21C6DD"/>
+                                </svg>                                
+                        </a>
+                    </div>
+                    <p class="subscriber__text">
+                        Time is the most precious thing you have when bootstrapping. You can't take time to ponder on design…
+                    </p>
+                </div>
+            </div>
+            <div class="subscribers__col col-md-6 col-lg-4">
+                <div class="subscriber">
+                    <div class="subscriber__header">
+                        <img src="./images/dist/ava-3.jpg" alt="" class="subscriber__ava">
+                        <div class="subscriber__info">
+                            <h4 class="subscriber__name">
+                                Lara Madrigal
+                            </h4>
+                            <p class="subscriber__post">
+                                Marketing Specialist
+                            </p>
+                        </div>
+                        <a href="" class="subscriber__social" target="_blank">
+                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 1.68351C15.4 1.95155 14.7667 2.11908 14.1 2.2196C14.7667 1.81753 15.3 1.18094 15.5333 0.410317C14.9 0.778874 14.2 1.04692 13.4333 1.21444C12.8333 0.577843 11.9667 0.175781 11.0333 0.175781C9.23333 0.175781 7.76667 1.65001 7.76667 3.45929C7.76667 3.72733 7.8 3.96186 7.86667 4.1964C5.16667 4.06238 2.73333 2.75568 1.1 0.745369C0.833333 1.24795 0.666667 1.78403 0.666667 2.38712C0.666667 3.5263 1.23333 4.53145 2.13333 5.13454C1.6 5.10104 1.1 4.96702 0.633333 4.73248V4.76599C0.633333 6.37423 1.76667 7.71444 3.26667 8.01599C3 8.083 2.7 8.1165 2.4 8.1165C2.2 8.1165 1.96667 8.083 1.76667 8.04949C2.2 9.35619 3.4 10.3278 4.83333 10.3278C3.7 11.199 2.3 11.7351 0.766667 11.7351C0.5 11.7351 0.233333 11.7351 0 11.7016C1.46667 12.6397 3.16667 13.1758 5.03333 13.1758C11.0667 13.1758 14.3667 8.15001 14.3667 3.79434C14.3667 3.66032 14.3667 3.49279 14.3667 3.35877C15 2.9232 15.5667 2.35362 16 1.68351Z" fill="#21C6DD"/>
+                                </svg>                                
+                        </a>
+                    </div>
+                    <p class="subscriber__text">
+                        Time is the most precious thing you have when bootstrapping. You can't take time to ponder on design…
+                    </p>
+                </div>
+            </div>
+            <div class="subscribers__col col-md-6 col-lg-4">
+                <div class="subscriber">
+                    <div class="subscriber__header">
+                        <img src="./images/dist/ava-4.jpg" alt="" class="subscriber__ava">
+                        <div class="subscriber__info">
+                            <h4 class="subscriber__name">
+                                Marleah Eagleston
+                            </h4>
+                            <p class="subscriber__post">
+                                Founder at Spicenet
+                            </p>
+                        </div>
+                        <a href="" class="subscriber__social" target="_blank">
+                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 1.68351C15.4 1.95155 14.7667 2.11908 14.1 2.2196C14.7667 1.81753 15.3 1.18094 15.5333 0.410317C14.9 0.778874 14.2 1.04692 13.4333 1.21444C12.8333 0.577843 11.9667 0.175781 11.0333 0.175781C9.23333 0.175781 7.76667 1.65001 7.76667 3.45929C7.76667 3.72733 7.8 3.96186 7.86667 4.1964C5.16667 4.06238 2.73333 2.75568 1.1 0.745369C0.833333 1.24795 0.666667 1.78403 0.666667 2.38712C0.666667 3.5263 1.23333 4.53145 2.13333 5.13454C1.6 5.10104 1.1 4.96702 0.633333 4.73248V4.76599C0.633333 6.37423 1.76667 7.71444 3.26667 8.01599C3 8.083 2.7 8.1165 2.4 8.1165C2.2 8.1165 1.96667 8.083 1.76667 8.04949C2.2 9.35619 3.4 10.3278 4.83333 10.3278C3.7 11.199 2.3 11.7351 0.766667 11.7351C0.5 11.7351 0.233333 11.7351 0 11.7016C1.46667 12.6397 3.16667 13.1758 5.03333 13.1758C11.0667 13.1758 14.3667 8.15001 14.3667 3.79434C14.3667 3.66032 14.3667 3.49279 14.3667 3.35877C15 2.9232 15.5667 2.35362 16 1.68351Z" fill="#21C6DD"/>
+                                </svg>                                
+                        </a>
+                    </div>
+                    <p class="subscriber__text">
+                        Time is the most precious thing you have when bootstrapping. You can't take time to ponder on design…
+                    </p>
+                </div>
+            </div>
+            <div class="subscribers__col col-md-6 col-lg-4">
+                <div class="subscriber">
+                    <div class="subscriber__header">
+                        <img src="./images/dist/ava-5.jpg" alt="" class="subscriber__ava">
+                        <div class="subscriber__info">
+                            <h4 class="subscriber__name">
+                                Prescott MacCaffery
+                            </h4>
+                            <p class="subscriber__post">
+                                Writer
+                            </p>
+                        </div>
+                        <a href="" class="subscriber__social" target="_blank">
+                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 1.68351C15.4 1.95155 14.7667 2.11908 14.1 2.2196C14.7667 1.81753 15.3 1.18094 15.5333 0.410317C14.9 0.778874 14.2 1.04692 13.4333 1.21444C12.8333 0.577843 11.9667 0.175781 11.0333 0.175781C9.23333 0.175781 7.76667 1.65001 7.76667 3.45929C7.76667 3.72733 7.8 3.96186 7.86667 4.1964C5.16667 4.06238 2.73333 2.75568 1.1 0.745369C0.833333 1.24795 0.666667 1.78403 0.666667 2.38712C0.666667 3.5263 1.23333 4.53145 2.13333 5.13454C1.6 5.10104 1.1 4.96702 0.633333 4.73248V4.76599C0.633333 6.37423 1.76667 7.71444 3.26667 8.01599C3 8.083 2.7 8.1165 2.4 8.1165C2.2 8.1165 1.96667 8.083 1.76667 8.04949C2.2 9.35619 3.4 10.3278 4.83333 10.3278C3.7 11.199 2.3 11.7351 0.766667 11.7351C0.5 11.7351 0.233333 11.7351 0 11.7016C1.46667 12.6397 3.16667 13.1758 5.03333 13.1758C11.0667 13.1758 14.3667 8.15001 14.3667 3.79434C14.3667 3.66032 14.3667 3.49279 14.3667 3.35877C15 2.9232 15.5667 2.35362 16 1.68351Z" fill="#21C6DD"/>
+                                </svg>                                
+                        </a>
+                    </div>
+                    <p class="subscriber__text">
+                        Time is the most precious thing you have when bootstrapping. You can't take time to ponder on design…
+                    </p>
+                </div>
+            </div>
+            <div class="subscribers__col col-md-6 col-lg-4">
+                <div class="subscriber">
+                    <div class="subscriber__header">
+                        <img src="./images/dist/ava-6.jpg" alt="" class="subscriber__ava">
+                        <div class="subscriber__info">
+                            <h4 class="subscriber__name">
+                                Waiapi Karaka
+                            </h4>
+                            <p class="subscriber__post">
+                                Designer, Freelancer
+                            </p>
+                        </div>
+                        <a href="" class="subscriber__social" target="_blank">
+                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 1.68351C15.4 1.95155 14.7667 2.11908 14.1 2.2196C14.7667 1.81753 15.3 1.18094 15.5333 0.410317C14.9 0.778874 14.2 1.04692 13.4333 1.21444C12.8333 0.577843 11.9667 0.175781 11.0333 0.175781C9.23333 0.175781 7.76667 1.65001 7.76667 3.45929C7.76667 3.72733 7.8 3.96186 7.86667 4.1964C5.16667 4.06238 2.73333 2.75568 1.1 0.745369C0.833333 1.24795 0.666667 1.78403 0.666667 2.38712C0.666667 3.5263 1.23333 4.53145 2.13333 5.13454C1.6 5.10104 1.1 4.96702 0.633333 4.73248V4.76599C0.633333 6.37423 1.76667 7.71444 3.26667 8.01599C3 8.083 2.7 8.1165 2.4 8.1165C2.2 8.1165 1.96667 8.083 1.76667 8.04949C2.2 9.35619 3.4 10.3278 4.83333 10.3278C3.7 11.199 2.3 11.7351 0.766667 11.7351C0.5 11.7351 0.233333 11.7351 0 11.7016C1.46667 12.6397 3.16667 13.1758 5.03333 13.1758C11.0667 13.1758 14.3667 8.15001 14.3667 3.79434C14.3667 3.66032 14.3667 3.49279 14.3667 3.35877C15 2.9232 15.5667 2.35362 16 1.68351Z" fill="#21C6DD"/>
+                                </svg>                                
+                        </a>
+                    </div>
+                    <p class="subscriber__text">
+                        Time is the most precious thing you have when bootstrapping. You can't take time to ponder on design…
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__info">
+                <h4 class="footer__title">
+                    BlogWriter
+                </h4>
+                <p class="footer__subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                </p>
+                <a href="" class="btn btn--red footer__btn">
+                    Ask Question
+                </a>
+
+            </div>
+   
+                <div class="footer__navigation">
+                    <h5 class="footer__navigation-title">
+                        Community
+                    </h5>
+                    <div class="menu-community-menu-container">
+                        <ul class="menu community-menu" id="community-menu">
+                            <li class="menu-item">
+                                <a href="">For Talents</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="">For Companies</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="">Facebook Group</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+  
+
+                <div class="footer__navigation">
+                    <h5 class="footer__navigation-title">
+                        About us
+                    </h5>
+                    <div class="menu-about-menu-container">
+                        <ul class="menu about-menu" id="about-menu">
+
+                            <li class="menu-item">
+                                <a href="">Meet the Team</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="">Our Story</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="">Career</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        
+         
+                <div class="footer__navigation">
+                    <h5 class="footer__navigation-title">
+                        Contacts
+                    </h5>
+                    <p class="footer__navigation-text">
+                        Feel free to get in touch with us via phone or send us a message.
+                    </p>
+                    <div class="menu-contacts-menu-container">
+                        <ul class="menu contacts-menu" id="contacts-menu">
+                            <li class="menu-item">
+                                <a href="tel:+13013403946" target="_blank">+1-301-340-3946</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="mailto:info@loremipsum.com" target="_blank">info@loremipsum.com</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+ 
+    
+  
+            
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__copyright">© lorem ipsum 2023, All Rights Reserved</div>
+            <div class="footer__social">
+                <nav class="social">
+                    <a href="" class="social__link" target="_blank">
+                        <img src="./images/dist/google.svg" alt="">
+                    </a>
+                    <a href="" class="social__link" target="_blank">
+                        <img src="./images/dist/facebook.svg" alt="">
+                    </a>
+                    <a href="" class="social__link" target="_blank">
+                        <img src="./images/dist/twitter.svg" alt="">
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</footer>
+
 
 	<script src="js/app.min.js"></script>
 

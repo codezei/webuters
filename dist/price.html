@@ -1,0 +1,1015 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Home</title>
+	<meta name="description" content="Startup HTML template OptimizedHTML 5">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/dist/preview.jpg">
+	
+	<link rel="stylesheet" href="css/app.min.css">
+
+</head>
+
+<body>
+
+
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="logo header__logo">
+                <a href="./index.html"><img src="./images/dist/logo.svg" alt=""></a>
+            </div>
+            <div class="header__navigation">
+                <nav class="header__navigation-main">
+                    <!-- wp_nav_menu() - primary-menu -->
+                    <div class="menu-primary-menu-container">
+                        <ul class="menu primary-menu" id="primary-menu">
+                            <li class="menu-item menu-item-has-children current-menu-ancestor">
+                                <span>Features</span>
+                                <ul class="sub-menu">
+                                    <li class="menu-item current-menu-item">
+                                        <a href="./page1.html">Page1</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="./page2.html">Page2</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./price.html">Pricing</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="https://www.youtube.com/watch?v=4u-n6njjks0">Watch a Demo</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+                <nav class="header__navigation-secondary">
+                    <a href="" class="btn btn--white header__navigation-btn">Log In</a>
+                    <a href="" class="btn btn--pink header__navigation-btn">Sign Up</a>
+                </nav>
+            </div>
+            <button type="button" class="header__navigation-btn-menu" data-toggle=".header__navigation">
+                <span></span><span></span><span></span>
+            </button>
+
+
+
+        </div>
+    </div>
+
+    <div class="popup">
+        <div class="popup__inner">
+            <button type="button" class="popup__close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                  </svg>
+            </button>
+        </div>
+    </div>
+</header>
+<section class="price">
+    <div class="container price__container">
+        <h2 class="price__title">
+            Pricing
+        </h2>
+        <p class="price__subtitle subtitle">
+            Get started with a 14 day free trial on our professional plan
+        </p>
+        <form class="price__switch switch">
+            <input type="radio" value="year" id="year" name="part" class="switch__value">
+            <label class="switch__label" for="year">Yearly <br><span class="switch__label-note">Save 20%</span></label>
+
+            <div class="switch__slider">
+                <div class="switch__slider-toddler"></div>
+            </div>
+
+            <input type="radio" value="month" id="quarter" name="part" class="switch__value" checked>
+            <label class="switch__label" for="quarter">Monthly</label>
+        </form>
+        <div class="price__row row">
+            <div class="price__col col-md-4 col-sm-6">
+                <div class="plan plan--green">
+                    <div class="plan__top">
+                        <div class="plan__name">
+                            Basic
+                        </div>
+                        <div class="plan__price">
+                            Always Free
+                        </div>
+                    </div>
+                    <div class="plan__bottom">
+                        <div class="plan__description">
+                            When you just want the basics
+                        </div>
+                        <a href="" class="plan__btn btn btn--pink">Get Started</a>
+                        <div class="plan__footnote">*No credit card required</div>
+                    </div>
+                </div>
+            </div>
+            <div class="price__col col-md-4 col-sm-6">
+                <div class="plan plan--yellow">
+                    <div class="plan__top">
+                        <div class="plan__name">
+                            Premium
+                        </div>
+                        <div class="plan__price js-change-price" data-year="5" data-month="7">
+                            7$
+                        </div>
+                        <div class="plan__price-notice">
+                            per user per month
+                        </div>
+                    </div>
+                    <div class="plan__bottom">
+                        <div class="plan__description">
+                            When you want to make it more personal.
+                        </div>
+                        <a href="" class="plan__btn btn btn--pink">Get Started</a>
+                        <div class="plan__footnote">*No credit card required</div>
+                    </div>
+                </div>
+            </div>
+            <div class="price__col col-md-4 col-sm-6">
+                <div class="plan plan--red">
+                    <div class="plan__top">
+                        <div class="plan__name">
+                            Custom Plan
+                        </div>
+                        <div class="plan__price">
+                            Contact Us
+                        </div>
+                    </div>
+                    <div class="plan__bottom">
+                        <div class="plan__description">
+                            When you need to go all-in!
+                        </div>
+                        <a href="" class="plan__btn btn btn--pink">Get Started</a>
+                        <div class="plan__footnote">*No credit card required</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="price__comparasion">
+            <table class="comparasion">
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <h3 class="comparasion__parameter-title">
+                            Features
+                        </h3>
+                    </td>
+                    <td class="comparasion__col">
+                        <h4 class="comparasion__plan-title">
+                            Basic
+                        </h4>
+                        <p class="comparasion__plan-desc">
+                            Always Free
+                        </p>
+                    </td>
+                    <td class="comparasion__col">
+                        <h4 class="comparasion__plan-title">
+                            Premium
+                        </h4>
+                        <p class="comparasion__plan-desc js-change-price" data-year="5" data-month="7">
+                            $7
+                        </p>
+                    </td>
+                    <td class="comparasion__col">
+                        <h4 class="comparasion__plan-title">
+                            Custom Plan
+                        </h4>
+                        <p class="comparasion__plan-desc js-change-price" data-year="10" data-month="12">
+                            $12
+                        </p>
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter">Calendar connections per person</p>
+                    </td>
+                    <td class="comparasion__col">
+                        Unlimited
+                    </td>
+                    <td class="comparasion__col">
+                        Unlimited
+                    </td>
+                    <td class="comparasion__col">
+                        Unlimited
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter">Connect Google and Office 365 calendars</p>
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter">Feature #2</p>
+                    </td>
+                    <td class="comparasion__col">
+                        1
+                    </td>
+                    <td class="comparasion__col">
+                        Unlimited
+                    </td>
+                    <td class="comparasion__col">
+                        Unlimited
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter">Feature #3</p>
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter"> Feature #4 </p>
+                        <span class="comparasion__parameter-notice">coming soon</span>
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter"> Feature #5</p>
+                        <span class="comparasion__parameter-notice">coming soon</span>
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter">Feature #6</p>
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter">Feature #7</p>
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter">Feature #8</p>
+                        <span class="comparasion__parameter-notice">coming soon</span>
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter">Feature #9</p>
+                        <span class="comparasion__parameter-notice">coming soon</span>
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter"> Feature #10</p>
+                        <span class="comparasion__parameter-notice">coming soon</span>
+                    </td>
+                    <td class="comparasion__col">
+                        1 paymant
+                    </td>
+                    <td class="comparasion__col">
+                        2 paymant
+                    </td>
+                    <td class="comparasion__col">
+                        3 paymant
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter">Feature #11</p>
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter">Feature #12</p>
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter">Feature #13</p>
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter">Feature #14</p>
+                        <span class="comparasion__parameter-notice">coming soon</span>
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.0003 18.7499C14.5837 18.7499 18.3337 14.9999 18.3337 10.4166C18.3337 5.83325 14.5837 2.08325 10.0003 2.08325C5.41699 2.08325 1.66699 5.83325 1.66699 10.4166C1.66699 14.9999 5.41699 18.7499 10.0003 18.7499Z"
+                                stroke="#5CBF83" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.45801 10.4164L8.81634 12.7748L13.5413 8.05811" stroke="#5CBF83" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+    
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter">Feature #15</p>
+                        <span class="comparasion__parameter-notice">coming soon</span>
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter">Feature #16</p>
+                        <span class="comparasion__parameter-notice">coming soon</span>
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter">Feature #17</p>
+                        <span class="comparasion__parameter-notice">coming soon</span>
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                    <td class="comparasion__col">
+                        &mdash;
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+                        <p class="comparasion__parameter">Feature #18</p>
+                    </td>
+                    <td class="comparasion__col">
+                        15%
+                    </td>
+                    <td class="comparasion__col">
+                        10%
+                    </td>
+                    <td class="comparasion__col">
+                        1$/transaction
+                    </td>
+                </tr>
+                <tr class="comparasion__row">
+                    <td class="comparasion__col">
+    
+                    </td>
+                    <td class="comparasion__col">
+                        <h4 class="comparasion__type">
+                            Free
+                        </h4>
+                        <a href="" class="btn btn--pink comparasion__btn">
+                            Get Started
+                        </a>
+                    </td>
+                    <td class="comparasion__col">
+                        <h4 class="comparasion__type">
+                            Standard
+                        </h4>
+                        <a href="" class="btn btn--pink comparasion__btn">
+                            START FREE TRIAL
+                        </a>
+                        <div class="comparasion__footnote">
+                            No credit card required!
+                        </div>
+                    </td>
+                    <td class="comparasion__col">
+                        <h4 class="comparasion__type">
+                            Professional
+                        </h4>
+                        <a href="" class="btn btn--pink comparasion__btn">
+                            START FREE TRIAL
+                        </a>
+                        <div class="comparasion__footnote">
+                            No credit card required!
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</section>
+<section class="payment">
+    <div class="container">
+        <div class="payment__header">
+            <h2 class="payment__title">
+                Payment Methods
+            </h2>
+            <p class="payment__subtitle subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing.
+            </p>
+        </div>
+        <div class="payment__list">
+            <div class="payment__item">
+                <img src="./images/dist/payment-1.png" alt="" class="payment__item-img">
+            </div>
+            <div class="payment__item">
+                <img src="./images/dist/payment-2.png" alt="" class="payment__item-img">
+            </div>
+            <div class="payment__item">
+                <img src="./images/dist/payment-3.png" alt="" class="payment__item-img">
+            </div>
+            <div class="payment__item">
+                <img src="./images/dist/payment-4.png" alt="" class="payment__item-img">
+            </div>
+            <div class="payment__item">
+                <img src="./images/dist/payment-5.png" alt="" class="payment__item-img">
+            </div>
+            <div class="payment__item">
+                <img src="./images/dist/payment-6.png" alt="" class="payment__item-img">
+            </div>
+            <div class="payment__item">
+                <img src="./images/dist/payment-7.png" alt="" class="payment__item-img">
+            </div>
+            <div class="payment__item">
+                <img src="./images/dist/payment-8.png" alt="" class="payment__item-img">
+            </div>
+            <div class="payment__item">
+                <img src="./images/dist/payment-9.png" alt="" class="payment__item-img">
+            </div>
+            <div class="payment__item">
+                <img src="./images/dist/payment-10.png" alt="" class="payment__item-img">
+            </div>
+            <div class="payment__item">
+                <img src="./images/dist/payment-11.png" alt="" class="payment__item-img">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="faq">
+    <div class="container">
+        <h2 class="faq__title">
+            FAQ
+        </h2>
+        <div class="row faq__row">
+            <div class="faq__col col-lg-6">
+                <div class="faq__list">
+                    <div class="faq__item accordion-item-js open">
+                        <h4 class="faq__item-title">
+                            We are a non-profit organization
+                        </h4>
+                        <p class="faq__item-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                    <div class="faq__item accordion-item-js">
+                        <h4 class="faq__item-title">
+                            What will happen after my 14 day free trial?
+                        </h4>
+                        <p class="faq__item-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                    <div class="faq__item accordion-item-js">
+                        <h4 class="faq__item-title">
+                            Can I become an affiliate?
+                        </h4>
+                        <p class="faq__item-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                        </p>
+                    </div>
+                    <div class="faq__item accordion-item-js">
+                        <h4 class="faq__item-title">
+                            What happens if I change from yearly to monthly?
+                        </h4>
+                        <p class="faq__item-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="faq__col col-lg-6">
+                <img src="./images/dist/faq.png" alt="" class="faq__img">
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="subscribers">
+    <div class="container">
+        <h2 class="subscribers__title">
+            10,000+ people love us
+        </h2>
+        <p class="subscribers__subtitle">
+            These companies release their own versions of the operating systems with minor changes, and yet always.
+        </p>
+        <div class="subscribers__row row">
+            <div class="subscribers__col col-md-6 col-lg-4">
+                <div class="subscriber">
+                    <div class="subscriber__header">
+                        <img src="./images/dist/ava-1.jpg" alt="" class="subscriber__ava">
+                        <div class="subscriber__info">
+                            <h4 class="subscriber__name">
+                                Aaron Almaraz
+                            </h4>
+                            <p class="subscriber__post">
+                                CEO & Founder at Gearat
+                            </p>
+                        </div>
+                        <a href="" class="subscriber__social" target="_blank">
+                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 1.68351C15.4 1.95155 14.7667 2.11908 14.1 2.2196C14.7667 1.81753 15.3 1.18094 15.5333 0.410317C14.9 0.778874 14.2 1.04692 13.4333 1.21444C12.8333 0.577843 11.9667 0.175781 11.0333 0.175781C9.23333 0.175781 7.76667 1.65001 7.76667 3.45929C7.76667 3.72733 7.8 3.96186 7.86667 4.1964C5.16667 4.06238 2.73333 2.75568 1.1 0.745369C0.833333 1.24795 0.666667 1.78403 0.666667 2.38712C0.666667 3.5263 1.23333 4.53145 2.13333 5.13454C1.6 5.10104 1.1 4.96702 0.633333 4.73248V4.76599C0.633333 6.37423 1.76667 7.71444 3.26667 8.01599C3 8.083 2.7 8.1165 2.4 8.1165C2.2 8.1165 1.96667 8.083 1.76667 8.04949C2.2 9.35619 3.4 10.3278 4.83333 10.3278C3.7 11.199 2.3 11.7351 0.766667 11.7351C0.5 11.7351 0.233333 11.7351 0 11.7016C1.46667 12.6397 3.16667 13.1758 5.03333 13.1758C11.0667 13.1758 14.3667 8.15001 14.3667 3.79434C14.3667 3.66032 14.3667 3.49279 14.3667 3.35877C15 2.9232 15.5667 2.35362 16 1.68351Z" fill="#21C6DD"/>
+                                </svg>                                
+                        </a>
+                    </div>
+                    <p class="subscriber__text">
+                        Time is the most precious thing you have when bootstrapping. You can't take time to ponder on design…
+                    </p>
+                </div>
+            </div>
+            <div class="subscribers__col col-md-6 col-lg-4">
+                <div class="subscriber">
+                    <div class="subscriber__header">
+                        <img src="./images/dist/ava-2.jpg" alt="" class="subscriber__ava">
+                        <div class="subscriber__info">
+                            <h4 class="subscriber__name">
+                                Phet Putrie
+                            </h4>
+                            <p class="subscriber__post">
+                                Freelancer
+                            </p>
+
+                        </div>
+                        <a href="" class="subscriber__social" target="_blank">
+                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 1.68351C15.4 1.95155 14.7667 2.11908 14.1 2.2196C14.7667 1.81753 15.3 1.18094 15.5333 0.410317C14.9 0.778874 14.2 1.04692 13.4333 1.21444C12.8333 0.577843 11.9667 0.175781 11.0333 0.175781C9.23333 0.175781 7.76667 1.65001 7.76667 3.45929C7.76667 3.72733 7.8 3.96186 7.86667 4.1964C5.16667 4.06238 2.73333 2.75568 1.1 0.745369C0.833333 1.24795 0.666667 1.78403 0.666667 2.38712C0.666667 3.5263 1.23333 4.53145 2.13333 5.13454C1.6 5.10104 1.1 4.96702 0.633333 4.73248V4.76599C0.633333 6.37423 1.76667 7.71444 3.26667 8.01599C3 8.083 2.7 8.1165 2.4 8.1165C2.2 8.1165 1.96667 8.083 1.76667 8.04949C2.2 9.35619 3.4 10.3278 4.83333 10.3278C3.7 11.199 2.3 11.7351 0.766667 11.7351C0.5 11.7351 0.233333 11.7351 0 11.7016C1.46667 12.6397 3.16667 13.1758 5.03333 13.1758C11.0667 13.1758 14.3667 8.15001 14.3667 3.79434C14.3667 3.66032 14.3667 3.49279 14.3667 3.35877C15 2.9232 15.5667 2.35362 16 1.68351Z" fill="#21C6DD"/>
+                                </svg>                                
+                        </a>
+                    </div>
+                    <p class="subscriber__text">
+                        Time is the most precious thing you have when bootstrapping. You can't take time to ponder on design…
+                    </p>
+                </div>
+            </div>
+            <div class="subscribers__col col-md-6 col-lg-4">
+                <div class="subscriber">
+                    <div class="subscriber__header">
+                        <img src="./images/dist/ava-3.jpg" alt="" class="subscriber__ava">
+                        <div class="subscriber__info">
+                            <h4 class="subscriber__name">
+                                Lara Madrigal
+                            </h4>
+                            <p class="subscriber__post">
+                                Marketing Specialist
+                            </p>
+                        </div>
+                        <a href="" class="subscriber__social" target="_blank">
+                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 1.68351C15.4 1.95155 14.7667 2.11908 14.1 2.2196C14.7667 1.81753 15.3 1.18094 15.5333 0.410317C14.9 0.778874 14.2 1.04692 13.4333 1.21444C12.8333 0.577843 11.9667 0.175781 11.0333 0.175781C9.23333 0.175781 7.76667 1.65001 7.76667 3.45929C7.76667 3.72733 7.8 3.96186 7.86667 4.1964C5.16667 4.06238 2.73333 2.75568 1.1 0.745369C0.833333 1.24795 0.666667 1.78403 0.666667 2.38712C0.666667 3.5263 1.23333 4.53145 2.13333 5.13454C1.6 5.10104 1.1 4.96702 0.633333 4.73248V4.76599C0.633333 6.37423 1.76667 7.71444 3.26667 8.01599C3 8.083 2.7 8.1165 2.4 8.1165C2.2 8.1165 1.96667 8.083 1.76667 8.04949C2.2 9.35619 3.4 10.3278 4.83333 10.3278C3.7 11.199 2.3 11.7351 0.766667 11.7351C0.5 11.7351 0.233333 11.7351 0 11.7016C1.46667 12.6397 3.16667 13.1758 5.03333 13.1758C11.0667 13.1758 14.3667 8.15001 14.3667 3.79434C14.3667 3.66032 14.3667 3.49279 14.3667 3.35877C15 2.9232 15.5667 2.35362 16 1.68351Z" fill="#21C6DD"/>
+                                </svg>                                
+                        </a>
+                    </div>
+                    <p class="subscriber__text">
+                        Time is the most precious thing you have when bootstrapping. You can't take time to ponder on design…
+                    </p>
+                </div>
+            </div>
+            <div class="subscribers__col col-md-6 col-lg-4">
+                <div class="subscriber">
+                    <div class="subscriber__header">
+                        <img src="./images/dist/ava-4.jpg" alt="" class="subscriber__ava">
+                        <div class="subscriber__info">
+                            <h4 class="subscriber__name">
+                                Marleah Eagleston
+                            </h4>
+                            <p class="subscriber__post">
+                                Founder at Spicenet
+                            </p>
+                        </div>
+                        <a href="" class="subscriber__social" target="_blank">
+                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 1.68351C15.4 1.95155 14.7667 2.11908 14.1 2.2196C14.7667 1.81753 15.3 1.18094 15.5333 0.410317C14.9 0.778874 14.2 1.04692 13.4333 1.21444C12.8333 0.577843 11.9667 0.175781 11.0333 0.175781C9.23333 0.175781 7.76667 1.65001 7.76667 3.45929C7.76667 3.72733 7.8 3.96186 7.86667 4.1964C5.16667 4.06238 2.73333 2.75568 1.1 0.745369C0.833333 1.24795 0.666667 1.78403 0.666667 2.38712C0.666667 3.5263 1.23333 4.53145 2.13333 5.13454C1.6 5.10104 1.1 4.96702 0.633333 4.73248V4.76599C0.633333 6.37423 1.76667 7.71444 3.26667 8.01599C3 8.083 2.7 8.1165 2.4 8.1165C2.2 8.1165 1.96667 8.083 1.76667 8.04949C2.2 9.35619 3.4 10.3278 4.83333 10.3278C3.7 11.199 2.3 11.7351 0.766667 11.7351C0.5 11.7351 0.233333 11.7351 0 11.7016C1.46667 12.6397 3.16667 13.1758 5.03333 13.1758C11.0667 13.1758 14.3667 8.15001 14.3667 3.79434C14.3667 3.66032 14.3667 3.49279 14.3667 3.35877C15 2.9232 15.5667 2.35362 16 1.68351Z" fill="#21C6DD"/>
+                                </svg>                                
+                        </a>
+                    </div>
+                    <p class="subscriber__text">
+                        Time is the most precious thing you have when bootstrapping. You can't take time to ponder on design…
+                    </p>
+                </div>
+            </div>
+            <div class="subscribers__col col-md-6 col-lg-4">
+                <div class="subscriber">
+                    <div class="subscriber__header">
+                        <img src="./images/dist/ava-5.jpg" alt="" class="subscriber__ava">
+                        <div class="subscriber__info">
+                            <h4 class="subscriber__name">
+                                Prescott MacCaffery
+                            </h4>
+                            <p class="subscriber__post">
+                                Writer
+                            </p>
+                        </div>
+                        <a href="" class="subscriber__social" target="_blank">
+                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 1.68351C15.4 1.95155 14.7667 2.11908 14.1 2.2196C14.7667 1.81753 15.3 1.18094 15.5333 0.410317C14.9 0.778874 14.2 1.04692 13.4333 1.21444C12.8333 0.577843 11.9667 0.175781 11.0333 0.175781C9.23333 0.175781 7.76667 1.65001 7.76667 3.45929C7.76667 3.72733 7.8 3.96186 7.86667 4.1964C5.16667 4.06238 2.73333 2.75568 1.1 0.745369C0.833333 1.24795 0.666667 1.78403 0.666667 2.38712C0.666667 3.5263 1.23333 4.53145 2.13333 5.13454C1.6 5.10104 1.1 4.96702 0.633333 4.73248V4.76599C0.633333 6.37423 1.76667 7.71444 3.26667 8.01599C3 8.083 2.7 8.1165 2.4 8.1165C2.2 8.1165 1.96667 8.083 1.76667 8.04949C2.2 9.35619 3.4 10.3278 4.83333 10.3278C3.7 11.199 2.3 11.7351 0.766667 11.7351C0.5 11.7351 0.233333 11.7351 0 11.7016C1.46667 12.6397 3.16667 13.1758 5.03333 13.1758C11.0667 13.1758 14.3667 8.15001 14.3667 3.79434C14.3667 3.66032 14.3667 3.49279 14.3667 3.35877C15 2.9232 15.5667 2.35362 16 1.68351Z" fill="#21C6DD"/>
+                                </svg>                                
+                        </a>
+                    </div>
+                    <p class="subscriber__text">
+                        Time is the most precious thing you have when bootstrapping. You can't take time to ponder on design…
+                    </p>
+                </div>
+            </div>
+            <div class="subscribers__col col-md-6 col-lg-4">
+                <div class="subscriber">
+                    <div class="subscriber__header">
+                        <img src="./images/dist/ava-6.jpg" alt="" class="subscriber__ava">
+                        <div class="subscriber__info">
+                            <h4 class="subscriber__name">
+                                Waiapi Karaka
+                            </h4>
+                            <p class="subscriber__post">
+                                Designer, Freelancer
+                            </p>
+                        </div>
+                        <a href="" class="subscriber__social" target="_blank">
+                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 1.68351C15.4 1.95155 14.7667 2.11908 14.1 2.2196C14.7667 1.81753 15.3 1.18094 15.5333 0.410317C14.9 0.778874 14.2 1.04692 13.4333 1.21444C12.8333 0.577843 11.9667 0.175781 11.0333 0.175781C9.23333 0.175781 7.76667 1.65001 7.76667 3.45929C7.76667 3.72733 7.8 3.96186 7.86667 4.1964C5.16667 4.06238 2.73333 2.75568 1.1 0.745369C0.833333 1.24795 0.666667 1.78403 0.666667 2.38712C0.666667 3.5263 1.23333 4.53145 2.13333 5.13454C1.6 5.10104 1.1 4.96702 0.633333 4.73248V4.76599C0.633333 6.37423 1.76667 7.71444 3.26667 8.01599C3 8.083 2.7 8.1165 2.4 8.1165C2.2 8.1165 1.96667 8.083 1.76667 8.04949C2.2 9.35619 3.4 10.3278 4.83333 10.3278C3.7 11.199 2.3 11.7351 0.766667 11.7351C0.5 11.7351 0.233333 11.7351 0 11.7016C1.46667 12.6397 3.16667 13.1758 5.03333 13.1758C11.0667 13.1758 14.3667 8.15001 14.3667 3.79434C14.3667 3.66032 14.3667 3.49279 14.3667 3.35877C15 2.9232 15.5667 2.35362 16 1.68351Z" fill="#21C6DD"/>
+                                </svg>                                
+                        </a>
+                    </div>
+                    <p class="subscriber__text">
+                        Time is the most precious thing you have when bootstrapping. You can't take time to ponder on design…
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__info">
+                <h4 class="footer__title">
+                    BlogWriter
+                </h4>
+                <p class="footer__subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                </p>
+                <a href="" class="btn btn--red footer__btn">
+                    Ask Question
+                </a>
+
+            </div>
+   
+                <div class="footer__navigation">
+                    <h5 class="footer__navigation-title">
+                        Community
+                    </h5>
+                    <div class="menu-community-menu-container">
+                        <ul class="menu community-menu" id="community-menu">
+                            <li class="menu-item">
+                                <a href="">For Talents</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="">For Companies</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="">Facebook Group</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+  
+
+                <div class="footer__navigation">
+                    <h5 class="footer__navigation-title">
+                        About us
+                    </h5>
+                    <div class="menu-about-menu-container">
+                        <ul class="menu about-menu" id="about-menu">
+
+                            <li class="menu-item">
+                                <a href="">Meet the Team</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="">Our Story</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="">Career</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        
+         
+                <div class="footer__navigation">
+                    <h5 class="footer__navigation-title">
+                        Contacts
+                    </h5>
+                    <p class="footer__navigation-text">
+                        Feel free to get in touch with us via phone or send us a message.
+                    </p>
+                    <div class="menu-contacts-menu-container">
+                        <ul class="menu contacts-menu" id="contacts-menu">
+                            <li class="menu-item">
+                                <a href="tel:+13013403946" target="_blank">+1-301-340-3946</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="mailto:info@loremipsum.com" target="_blank">info@loremipsum.com</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+ 
+    
+  
+            
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__copyright">© lorem ipsum 2023, All Rights Reserved</div>
+            <div class="footer__social">
+                <nav class="social">
+                    <a href="" class="social__link" target="_blank">
+                        <img src="./images/dist/google.svg" alt="">
+                    </a>
+                    <a href="" class="social__link" target="_blank">
+                        <img src="./images/dist/facebook.svg" alt="">
+                    </a>
+                    <a href="" class="social__link" target="_blank">
+                        <img src="./images/dist/twitter.svg" alt="">
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+	<script src="js/app.min.js"></script>
+
+</body>
+</html>
