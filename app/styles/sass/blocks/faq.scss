@@ -1,0 +1,92 @@
+.faq {
+    padding: 120px 0;
+    &__title {
+        margin-bottom: 80px;
+    }
+    &__row {
+        justify-content: center;
+    }
+    &__img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__item {
+        padding-bottom: 2rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        &:not(:last-child) {
+            margin-bottom: 2rem;
+        }
+        &-title {
+            position: relative;
+            font-size: 20px;
+            margin-bottom: 0;
+            padding-right: 25px;
+            cursor: pointer;
+            .open & {
+                color: #E24443;
+                &:before {
+                    transform: rotate(180deg);
+                    background-image: url("data:image/svg+xml,%3Csvg width='20' height='21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m16.6 7.634-5.433 5.434a1.655 1.655 0 0 1-2.334 0L3.4 7.634' stroke='%23E24443' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");                
+                }
+                }
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                background-image: url("data:image/svg+xml,%3Csvg width='20' height='21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m16.6 7.634-5.433 5.434a1.655 1.655 0 0 1-2.334 0L3.4 7.634' stroke='%2338327C' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                right: 0;
+                top: 0;
+
+            }
+        }
+        &-text {
+            max-height: 0;
+            transition: all 400ms;
+            overflow: hidden;
+            margin-bottom: 0;
+            
+            .open & {
+                padding-top: 2rem;
+                max-height: 350px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1199px) {
+        padding: 80px 0;
+        &__title {
+            margin-bottom: 50px;
+        }
+    }
+    @media screen and (max-width: 991px) {
+        padding: 60px 0;
+        &__title {
+            margin-bottom: 2rem;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        padding: 40px 0;
+    }
+    @media screen and (max-width: 575px) {
+        padding: 30px 0;
+        &__title {
+            margin-bottom: 1.5rem;
+        }
+        padding-bottom: 1.5rem;
+        &:not(:last-child) {
+            margin-bottom: 1.5rem;
+        }
+        &__text {
+            .open & {
+                padding-top: 1.5rem;
+            }
+        }
+    }
+}

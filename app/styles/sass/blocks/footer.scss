@@ -1,0 +1,99 @@
+.footer {
+    background-color: #1D293F;
+    color: #fff;
+    padding: 100px 0 0;
+    font-weight: 500;
+    &__title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: #fff;
+    }
+    &__subtitle {
+        color: #8C97AC;
+        line-height: 1.4;
+        margin-bottom: 1.5rem;
+    }
+    &__navigation {
+        max-width: 300px;
+        padding: 0 15px;
+        &-title {
+            color: #8C97AC;
+            font-size: 18px;
+            margin-bottom: 1rem;
+        }
+        &-text {
+            margin-bottom: 1rem;
+        }
+        .menu {
+            li:not(:last-child) {
+                margin-bottom: 1rem;
+            } 
+        }
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        margin-left: -15px;
+        margin-right: -15px;
+
+    }
+    &__info {
+        max-width: 300px;
+        margin-right: auto;
+        padding: 0 15px;
+    }
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+        border-top: 1px solid #313D55;
+        padding: 24px 0;
+    }
+    &__copyright {
+        color: #8C97AC;
+        font-weight: 400;
+    }
+    @media screen and (max-width: 991px) {
+        padding-top: 60px;
+        &__inner {
+            flex-wrap: wrap;
+        }
+        &__info {
+            max-width: 100%;
+            width: 100%;
+            margin-bottom: 1.5rem;
+        }
+        &__bottom {
+            margin-top: 60px;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        padding-top: 40px;
+        &__bottom {
+            margin-top: 40px;
+        }
+        &__navigation {
+            &:not(:last-of-type) {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    @media screen and (max-width: 575px) {
+        padding-top: 30px;
+        &__bottom {
+            margin-top: 30px;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        &__copyright {
+            margin-bottom: 1rem;
+        }
+    }
+}
+.social {
+    &__link {
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+    }
+}
